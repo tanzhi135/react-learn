@@ -5,7 +5,7 @@ import { Layout, Menu } from 'antd'
 // React Router 钩子：useNavigate 编程式导航，useLocation 获取当前路径，Outlet 子路由出口
 import { useNavigate, useLocation, Outlet } from 'react-router-dom'
 // Ant Design 图标
-import { HomeOutlined, GlobalOutlined } from '@ant-design/icons'
+import { HomeOutlined, GlobalOutlined,LaptopOutlined,TableOutlined } from '@ant-design/icons'
 
 // 从 Layout 中解构出 Header（头部导航栏）和 Content（内容区）
 const { Header, Content } = Layout
@@ -27,6 +27,21 @@ const menuItems = [
     key: '/map',
     label: '3D地图',
     icon: <GlobalOutlined />,
+  },
+  {
+    key: '/bigscreen',
+    label: '大屏展示',
+    icon: <LaptopOutlined />,
+  },
+  {
+    key: '/game',
+    label: '井字棋',
+    icon: <TableOutlined />,
+  },
+  {
+    key: '/game1',
+    label: '井字棋',
+    icon: <TableOutlined />,
   },
   // 后续可扩展：{ key: '/new-page', label: '新页面', icon: <AppstoreOutlined /> }
 ]
