@@ -113,6 +113,7 @@ export default function Game() {
     setCurrentMove(nextMove);
   }
   const moves = history.map((squares, move) => {
+    console.log("history move " + squares);
     let description;
     if (move > 0) {
       description = "Go to move #" + move;
