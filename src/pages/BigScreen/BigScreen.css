@@ -20,7 +20,7 @@ body,
 }
 
 .ksh {
-  height: 100vh;
+  height:calc(100vh - 64px);
   padding: 15px;
   background: url("/data08.png") no-repeat #061537;
   background-size: cover;
