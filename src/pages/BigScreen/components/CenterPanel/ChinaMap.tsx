@@ -4,7 +4,8 @@ import { getChinaMapOption } from '../../config/option8';
 import china from '../../../../../public/china.json'; // Ensure this path is correct based on your project structure
 const ChinaMap: React.FC = () => {
   const chartRef = useRef<HTMLDivElement>(null);
-  const chartInstance = useRef<echarts.ECharts | null>(null);
+  const chartInstance = useRef<echarts.ECharts | null>(null); 
+  // @ts-ignore
   echarts.registerMap('china', {geoJSON: china});
   useEffect(() => {
     // Load china map script dynamically
