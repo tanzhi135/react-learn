@@ -33,13 +33,13 @@ const menuItems = [
     label: '大屏展示',
     icon: <LaptopOutlined />,
   },
+  // {
+  //   key: '/game',
+  //   label: '井字棋',
+  //   icon: <TableOutlined />,
+  // },
   {
     key: '/game',
-    label: '井字棋',
-    icon: <TableOutlined />,
-  },
-  {
-    key: '/game1',
     label: '井字棋',
     icon: <TableOutlined />,
   },
